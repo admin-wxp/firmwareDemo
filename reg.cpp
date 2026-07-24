@@ -4,4 +4,4 @@ int main(){
     reg |= (1<<26);
     printf("%d",reg);
     return 0;
-}
+} 
