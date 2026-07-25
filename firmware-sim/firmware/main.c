@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "chip_reg.h"
 #include "adc_ctrl.h"
 
 int main(void)
