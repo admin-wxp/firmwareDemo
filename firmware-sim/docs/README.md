@@ -28,3 +28,22 @@ make
 cd ../tests
 pip install -r requirements.txt
 python test_adc_corner.py
+
+
+
+
+
+# 1. 进入你的代码目录（VS Code 已打开该文件夹时，终端默认就在此目录）
+cd /path/to/your/project   # 如果终端不在项目根目录，先切换
+# 2. 初始化 Git
+git init
+# 3. 添加所有文件到暂存区
+git add .
+# 4. 提交到本地仓库
+git commit -m "Initial commit"
+# 5. 关联 GitHub 远程仓库（把 <URL> 换成你的仓库地址）
+git remote add origin https://github.com/用户名/仓库名.git
+# 6. 推送到远程 main 分支（如果是 master 分支，把 main 换成 master）
+git branch -M main
+git config --global http.sslVerify false
+git push -u origin main
